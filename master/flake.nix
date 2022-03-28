@@ -11,7 +11,6 @@
   inputs.src-openstreetmap-master.ref   = "refs/heads/master";
   inputs.src-openstreetmap-master.owner = "juancarlospaco";
   inputs.src-openstreetmap-master.repo  = "nim-openstreetmap";
-  inputs.src-openstreetmap-master.dir   = "";
   inputs.src-openstreetmap-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
